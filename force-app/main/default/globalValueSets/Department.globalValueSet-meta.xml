@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Allergy &amp; Immunology</fullName>
+        <default>false</default>
+        <label>Allergy &amp; Immunology</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardiology</fullName>
+        <default>false</default>
+        <label>Cardiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology</fullName>
+        <default>false</default>
+        <label>Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency / Toxicology</fullName>
+        <default>false</default>
+        <label>Emergency / Toxicology</label>
+    </customValue>
+    <customValue>
+        <fullName>ENT (Ear, Nose, Throat)</fullName>
+        <default>false</default>
+        <label>ENT (Ear, Nose, Throat)</label>
+    </customValue>
+    <customValue>
+        <fullName>Gastroenterology</fullName>
+        <default>false</default>
+        <label>Gastroenterology</label>
+    </customValue>
+    <customValue>
+        <fullName>General Medicine</fullName>
+        <default>false</default>
+        <label>General Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurology</fullName>
+        <default>false</default>
+        <label>Neurology</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedics</fullName>
+        <default>false</default>
+        <label>Orthopedics</label>
+    </customValue>
+    <customValue>
+        <fullName>Pulmonology / Respiratory Medicine</fullName>
+        <default>false</default>
+        <label>Pulmonology / Respiratory Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Urology / Nephrology</fullName>
+        <default>false</default>
+        <label>Urology / Nephrology</label>
+    </customValue>
+    <masterLabel>Department</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

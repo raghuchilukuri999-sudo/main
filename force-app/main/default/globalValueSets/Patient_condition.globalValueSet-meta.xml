@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acute Condition</fullName>
+        <default>false</default>
+        <label>Acute Condition</label>
+    </customValue>
+    <customValue>
+        <fullName>Admitted (Inpatient)</fullName>
+        <default>false</default>
+        <label>Admitted (Inpatient)</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronic Condition</fullName>
+        <default>false</default>
+        <label>Chronic Condition</label>
+    </customValue>
+    <customValue>
+        <fullName>Critical</fullName>
+        <default>false</default>
+        <label>Critical</label>
+    </customValue>
+    <customValue>
+        <fullName>Discharged</fullName>
+        <default>false</default>
+        <label>Discharged</label>
+    </customValue>
+    <customValue>
+        <fullName>Infectious Condition</fullName>
+        <default>false</default>
+        <label>Infectious Condition</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Infectious Condition</fullName>
+        <default>false</default>
+        <label>Non-Infectious Condition</label>
+    </customValue>
+    <customValue>
+        <fullName>Outpatient</fullName>
+        <default>false</default>
+        <label>Outpatient</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Surgery Recovery</fullName>
+        <default>false</default>
+        <label>Post-Surgery Recovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Recovering</fullName>
+        <default>false</default>
+        <label>Recovering</label>
+    </customValue>
+    <customValue>
+        <fullName>Referred to Specialist</fullName>
+        <default>false</default>
+        <label>Referred to Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>Requires Surgery</fullName>
+        <default>false</default>
+        <label>Requires Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Serious</fullName>
+        <default>false</default>
+        <label>Serious</label>
+    </customValue>
+    <customValue>
+        <fullName>Stable</fullName>
+        <default>false</default>
+        <label>Stable</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Observation</fullName>
+        <default>false</default>
+        <label>Under Observation</label>
+    </customValue>
+    <masterLabel>Patient condition</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

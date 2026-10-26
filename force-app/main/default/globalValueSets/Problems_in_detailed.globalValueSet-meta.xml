@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Acidity / Heartburn</fullName>
+        <default>false</default>
+        <label>Acidity / Heartburn</label>
+    </customValue>
+    <customValue>
+        <fullName>Anaphylaxis</fullName>
+        <default>false</default>
+        <label>Anaphylaxis</label>
+    </customValue>
+    <customValue>
+        <fullName>Asthma</fullName>
+        <default>false</default>
+        <label>Asthma</label>
+    </customValue>
+    <customValue>
+        <fullName>Back Pain</fullName>
+        <default>false</default>
+        <label>Back Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Bee/Wasp Sting</fullName>
+        <default>false</default>
+        <label>Bee/Wasp Sting</label>
+    </customValue>
+    <customValue>
+        <fullName>Bladder Infection</fullName>
+        <default>false</default>
+        <label>Bladder Infection</label>
+    </customValue>
+    <customValue>
+        <fullName>Blood in Urine (Hematuria)</fullName>
+        <default>false</default>
+        <label>Blood in Urine (Hematuria)</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Pain</fullName>
+        <default>false</default>
+        <label>Body Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Brain Injury</fullName>
+        <default>false</default>
+        <label>Brain Injury</label>
+    </customValue>
+    <customValue>
+        <fullName>Bronchitis</fullName>
+        <default>false</default>
+        <label>Bronchitis</label>
+    </customValue>
+    <customValue>
+        <fullName>Chest Pain</fullName>
+        <default>false</default>
+        <label>Chest Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Chronic Obstructive Pulmonary Disease (COPD)</fullName>
+        <default>false</default>
+        <label>Chronic Obstructive Pulmonary Disease (COPD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold &amp; Congestion</fullName>
+        <default>false</default>
+        <label>Cold &amp; Congestion</label>
+    </customValue>
+    <customValue>
+        <fullName>Constipation</fullName>
+        <default>false</default>
+        <label>Constipation</label>
+    </customValue>
+    <customValue>
+        <fullName>Cough (Dry/Wet)</fullName>
+        <default>false</default>
+        <label>Cough (Dry/Wet)</label>
+    </customValue>
+    <customValue>
+        <fullName>Diarrhea</fullName>
+        <default>false</default>
+        <label>Diarrhea</label>
+    </customValue>
+    <customValue>
+        <fullName>Dizziness</fullName>
+        <default>false</default>
+        <label>Dizziness</label>
+    </customValue>
+    <customValue>
+        <fullName>Dog Bite (Rabies concern)</fullName>
+        <default>false</default>
+        <label>Dog Bite (Rabies concern)</label>
+    </customValue>
+    <customValue>
+        <fullName>Drug Allergy</fullName>
+        <default>false</default>
+        <label>Drug Allergy</label>
+    </customValue>
+    <customValue>
+        <fullName>Dust Allergy</fullName>
+        <default>false</default>
+        <label>Dust Allergy</label>
+    </customValue>
+    <customValue>
+        <fullName>Ear Pain / Ear Infection</fullName>
+        <default>false</default>
+        <label>Ear Pain / Ear Infection</label>
+    </customValue>
+    <customValue>
+        <fullName>Epilepsy</fullName>
+        <default>false</default>
+        <label>Epilepsy</label>
+    </customValue>
+    <customValue>
+        <fullName>Fatigue/Weakness</fullName>
+        <default>false</default>
+        <label>Fatigue/Weakness</label>
+    </customValue>
+    <customValue>
+        <fullName>Fever</fullName>
+        <default>false</default>
+        <label>Fever</label>
+    </customValue>
+    <customValue>
+        <fullName>Food Allergy</fullName>
+        <default>false</default>
+        <label>Food Allergy</label>
+    </customValue>
+    <customValue>
+        <fullName>Fracture</fullName>
+        <default>false</default>
+        <label>Fracture</label>
+    </customValue>
+    <customValue>
+        <fullName>Frequent Urination</fullName>
+        <default>false</default>
+        <label>Frequent Urination</label>
+    </customValue>
+    <customValue>
+        <fullName>Gastritis</fullName>
+        <default>false</default>
+        <label>Gastritis</label>
+    </customValue>
+    <customValue>
+        <fullName>Headache / Migraine</fullName>
+        <default>false</default>
+        <label>Headache / Migraine</label>
+    </customValue>
+    <customValue>
+        <fullName>Hearing Loss</fullName>
+        <default>false</default>
+        <label>Hearing Loss</label>
+    </customValue>
+    <customValue>
+        <fullName>Heart Attack (Myocardial Infarction)</fullName>
+        <default>false</default>
+        <label>Heart Attack (Myocardial Infarction)</label>
+    </customValue>
+    <customValue>
+        <fullName>Heart Failure</fullName>
+        <default>false</default>
+        <label>Heart Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>Heart Murmur</fullName>
+        <default>false</default>
+        <label>Heart Murmur</label>
+    </customValue>
+    <customValue>
+        <fullName>High Blood Pressure (Hypertension)</fullName>
+        <default>false</default>
+        <label>High Blood Pressure (Hypertension)</label>
+    </customValue>
+    <customValue>
+        <fullName>Incontinence</fullName>
+        <default>false</default>
+        <label>Incontinence</label>
+    </customValue>
+    <customValue>
+        <fullName>Indigestion</fullName>
+        <default>false</default>
+        <label>Indigestion</label>
+    </customValue>
+    <customValue>
+        <fullName>Insect Bite</fullName>
+        <default>false</default>
+        <label>Insect Bite</label>
+    </customValue>
+    <customValue>
+        <fullName>Irregular Heartbeat (Arrhythmia)</fullName>
+        <default>false</default>
+        <label>Irregular Heartbeat (Arrhythmia)</label>
+    </customValue>
+    <customValue>
+        <fullName>Irritable Bowel Syndrome (IBS)</fullName>
+        <default>false</default>
+        <label>Irritable Bowel Syndrome (IBS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Itching</fullName>
+        <default>false</default>
+        <label>Itching</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Pain (Arthritis)</fullName>
+        <default>false</default>
+        <label>Joint Pain (Arthritis)</label>
+    </customValue>
+    <customValue>
+        <fullName>Kidney Stones</fullName>
+        <default>false</default>
+        <label>Kidney Stones</label>
+    </customValue>
+    <customValue>
+        <fullName>Loss of Consciousness</fullName>
+        <default>false</default>
+        <label>Loss of Consciousness</label>
+    </customValue>
+    <customValue>
+        <fullName>Low Blood Pressure (Hypotension)</fullName>
+        <default>false</default>
+        <label>Low Blood Pressure (Hypotension)</label>
+    </customValue>
+    <customValue>
+        <fullName>Memory Loss</fullName>
+        <default>false</default>
+        <label>Memory Loss</label>
+    </customValue>
+    <customValue>
+        <fullName>Mosquito Bite (Dengue/Malaria concern)</fullName>
+        <default>false</default>
+        <label>Mosquito Bite (Dengue/Malaria concern)</label>
+    </customValue>
+    <customValue>
+        <fullName>Multiple Sclerosis</fullName>
+        <default>false</default>
+        <label>Multiple Sclerosis</label>
+    </customValue>
+    <customValue>
+        <fullName>Nasal Blockage</fullName>
+        <default>false</default>
+        <label>Nasal Blockage</label>
+    </customValue>
+    <customValue>
+        <fullName>Nerve Pain (Neuralgia)</fullName>
+        <default>false</default>
+        <label>Nerve Pain (Neuralgia)</label>
+    </customValue>
+    <customValue>
+        <fullName>Neuropathy (Diabetes-related/Other)</fullName>
+        <default>false</default>
+        <label>Neuropathy (Diabetes-related/Other)</label>
+    </customValue>
+    <customValue>
+        <fullName>Osteoporosis</fullName>
+        <default>false</default>
+        <label>Osteoporosis</label>
+    </customValue>
+    <customValue>
+        <fullName>Painful Urination</fullName>
+        <default>false</default>
+        <label>Painful Urination</label>
+    </customValue>
+    <customValue>
+        <fullName>Palpitations</fullName>
+        <default>false</default>
+        <label>Palpitations</label>
+    </customValue>
+    <customValue>
+        <fullName>Parkinson’s Disease</fullName>
+        <default>false</default>
+        <label>Parkinson’s Disease</label>
+    </customValue>
+    <customValue>
+        <fullName>Pneumonia</fullName>
+        <default>false</default>
+        <label>Pneumonia</label>
+    </customValue>
+    <customValue>
+        <fullName>Routine Health Check</fullName>
+        <default>false</default>
+        <label>Routine Health Check</label>
+    </customValue>
+    <customValue>
+        <fullName>Seasonal Allergy</fullName>
+        <default>false</default>
+        <label>Seasonal Allergy</label>
+    </customValue>
+    <customValue>
+        <fullName>Seizures</fullName>
+        <default>false</default>
+        <label>Seizures</label>
+    </customValue>
+    <customValue>
+        <fullName>Shortness of Breath</fullName>
+        <default>false</default>
+        <label>Shortness of Breath</label>
+    </customValue>
+    <customValue>
+        <fullName>Sinusitis</fullName>
+        <default>false</default>
+        <label>Sinusitis</label>
+    </customValue>
+    <customValue>
+        <fullName>Skin Rash</fullName>
+        <default>false</default>
+        <label>Skin Rash</label>
+    </customValue>
+    <customValue>
+        <fullName>Slipped Disc</fullName>
+        <default>false</default>
+        <label>Slipped Disc</label>
+    </customValue>
+    <customValue>
+        <fullName>Snake Bite</fullName>
+        <default>false</default>
+        <label>Snake Bite</label>
+    </customValue>
+    <customValue>
+        <fullName>Sneezing/Runny Nose</fullName>
+        <default>false</default>
+        <label>Sneezing/Runny Nose</label>
+    </customValue>
+    <customValue>
+        <fullName>Sore Throat</fullName>
+        <default>false</default>
+        <label>Sore Throat</label>
+    </customValue>
+    <customValue>
+        <fullName>Spider Bite</fullName>
+        <default>false</default>
+        <label>Spider Bite</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprain / Strain</fullName>
+        <default>false</default>
+        <label>Sprain / Strain</label>
+    </customValue>
+    <customValue>
+        <fullName>Stomach Pain</fullName>
+        <default>false</default>
+        <label>Stomach Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Stroke</fullName>
+        <default>false</default>
+        <label>Stroke</label>
+    </customValue>
+    <customValue>
+        <fullName>Swelling in Joints</fullName>
+        <default>false</default>
+        <label>Swelling in Joints</label>
+    </customValue>
+    <customValue>
+        <fullName>Tinnitus (Ringing in Ear)</fullName>
+        <default>false</default>
+        <label>Tinnitus (Ringing in Ear)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tonsillitis</fullName>
+        <default>false</default>
+        <label>Tonsillitis</label>
+    </customValue>
+    <customValue>
+        <fullName>Tremors</fullName>
+        <default>false</default>
+        <label>Tremors</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuberculosis (TB)</fullName>
+        <default>false</default>
+        <label>Tuberculosis (TB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ulcers</fullName>
+        <default>false</default>
+        <label>Ulcers</label>
+    </customValue>
+    <customValue>
+        <fullName>Urinary Tract Infection (UTI)</fullName>
+        <default>false</default>
+        <label>Urinary Tract Infection (UTI)</label>
+    </customValue>
+    <customValue>
+        <fullName>Vertigo</fullName>
+        <default>false</default>
+        <label>Vertigo</label>
+    </customValue>
+    <customValue>
+        <fullName>Vitamin Deficiency</fullName>
+        <default>false</default>
+        <label>Vitamin Deficiency</label>
+    </customValue>
+    <customValue>
+        <fullName>Weakness/Paralysis</fullName>
+        <default>false</default>
+        <label>Weakness/Paralysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Weight Management</fullName>
+        <default>false</default>
+        <label>Weight Management</label>
+    </customValue>
+    <masterLabel>Problems in detailed</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

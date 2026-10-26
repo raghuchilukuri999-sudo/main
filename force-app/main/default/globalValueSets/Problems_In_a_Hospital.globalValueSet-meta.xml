@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Allergic</fullName>
+        <default>false</default>
+        <label>Allergic</label>
+    </customValue>
+    <customValue>
+        <fullName>Bites</fullName>
+        <default>false</default>
+        <label>Bites</label>
+    </customValue>
+    <customValue>
+        <fullName>Bones</fullName>
+        <default>false</default>
+        <label>Bones</label>
+    </customValue>
+    <customValue>
+        <fullName>ENT</fullName>
+        <default>false</default>
+        <label>ENT</label>
+    </customValue>
+    <customValue>
+        <fullName>Gastric</fullName>
+        <default>false</default>
+        <label>Gastric</label>
+    </customValue>
+    <customValue>
+        <fullName>General Checkup</fullName>
+        <default>false</default>
+        <label>General Checkup</label>
+    </customValue>
+    <customValue>
+        <fullName>Head and Brain</fullName>
+        <default>false</default>
+        <label>Head and Brain</label>
+    </customValue>
+    <customValue>
+        <fullName>Heart</fullName>
+        <default>false</default>
+        <label>Heart</label>
+    </customValue>
+    <customValue>
+        <fullName>Lungs</fullName>
+        <default>false</default>
+        <label>Lungs</label>
+    </customValue>
+    <customValue>
+        <fullName>Neuro</fullName>
+        <default>false</default>
+        <label>Neuro</label>
+    </customValue>
+    <customValue>
+        <fullName>Urinary</fullName>
+        <default>false</default>
+        <label>Urinary</label>
+    </customValue>
+    <masterLabel>Problems In a Hospital</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

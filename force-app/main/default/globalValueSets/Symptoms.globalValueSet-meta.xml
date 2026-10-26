@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Fever</fullName>
+        <default>false</default>
+        <label>Fever</label>
+    </customValue>
+    <customValue>
+        <fullName>Cough</fullName>
+        <default>false</default>
+        <label>Cough</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold / Runny Nose</fullName>
+        <default>false</default>
+        <label>Cold / Runny Nose</label>
+    </customValue>
+    <customValue>
+        <fullName>Headache</fullName>
+        <default>false</default>
+        <label>Headache</label>
+    </customValue>
+    <customValue>
+        <fullName>Dizziness</fullName>
+        <default>false</default>
+        <label>Dizziness</label>
+    </customValue>
+    <customValue>
+        <fullName>Fatigue / Weakness</fullName>
+        <default>false</default>
+        <label>Fatigue / Weakness</label>
+    </customValue>
+    <customValue>
+        <fullName>Body Pain</fullName>
+        <default>false</default>
+        <label>Body Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Nausea</fullName>
+        <default>false</default>
+        <label>Nausea</label>
+    </customValue>
+    <customValue>
+        <fullName>Vomiting</fullName>
+        <default>false</default>
+        <label>Vomiting</label>
+    </customValue>
+    <customValue>
+        <fullName>Diarrhea</fullName>
+        <default>false</default>
+        <label>Diarrhea</label>
+    </customValue>
+    <customValue>
+        <fullName>Constipation</fullName>
+        <default>false</default>
+        <label>Constipation</label>
+    </customValue>
+    <customValue>
+        <fullName>Stomach Pain</fullName>
+        <default>false</default>
+        <label>Stomach Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Chest Pain</fullName>
+        <default>false</default>
+        <label>Chest Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Shortness of Breath</fullName>
+        <default>false</default>
+        <label>Shortness of Breath</label>
+    </customValue>
+    <customValue>
+        <fullName>Palpitations</fullName>
+        <default>false</default>
+        <label>Palpitations</label>
+    </customValue>
+    <customValue>
+        <fullName>Swelling (Edema)</fullName>
+        <default>false</default>
+        <label>Swelling (Edema)</label>
+    </customValue>
+    <customValue>
+        <fullName>Loss of Appetite</fullName>
+        <default>false</default>
+        <label>Loss of Appetite</label>
+    </customValue>
+    <customValue>
+        <fullName>Weight Loss</fullName>
+        <default>false</default>
+        <label>Weight Loss</label>
+    </customValue>
+    <customValue>
+        <fullName>Rash / Itching</fullName>
+        <default>false</default>
+        <label>Rash / Itching</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Pain</fullName>
+        <default>false</default>
+        <label>Joint Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Back Pain</fullName>
+        <default>false</default>
+        <label>Back Pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Numbness / Tingling</fullName>
+        <default>false</default>
+        <label>Numbness / Tingling</label>
+    </customValue>
+    <customValue>
+        <fullName>Seizures</fullName>
+        <default>false</default>
+        <label>Seizures</label>
+    </customValue>
+    <customValue>
+        <fullName>Loss of Consciousness</fullName>
+        <default>false</default>
+        <label>Loss of Consciousness</label>
+    </customValue>
+    <customValue>
+        <fullName>Difficulty Sleeping</fullName>
+        <default>false</default>
+        <label>Difficulty Sleeping</label>
+    </customValue>
+    <customValue>
+        <fullName>Anxiety</fullName>
+        <default>false</default>
+        <label>Anxiety</label>
+    </customValue>
+    <customValue>
+        <fullName>Depression</fullName>
+        <default>false</default>
+        <label>Depression</label>
+    </customValue>
+    <masterLabel>Symptoms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
