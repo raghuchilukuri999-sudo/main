@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_Rule_Case_Escalated_and_SLA</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message when a
+Case which is not Escalated and if its SLA Violated is updated to
+Yes.</description>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(PRIORVALUE(Status),&apos;Escalated&apos;)), NOT(ISPICKVAL(Status ,&apos;Escalated&apos;)), ISPICKVAL(SLAViolation__c,&apos;Yes&apos;)
+)</errorConditionFormula>
+    <errorMessage>The SLA Violated Can&apos;t Be Updated To &quot;YES&quot; If Case Status Was Not &quot;Escalated&quot;</errorMessage>
+</ValidationRule>

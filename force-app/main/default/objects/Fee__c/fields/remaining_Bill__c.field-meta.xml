@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>remaining_Bill__c</fullName>
+    <formula>Bill_After_discount__c - ( Amount_Paid_Upto_Know__c +  Advance_paid__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>this is the Remaining About To be Paid That is Advance paid + other paid</inlineHelpText>
+    <label>remaining Bill</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

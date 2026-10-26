@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_related_to__c</fullName>
+    <label>Fee related to</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appointment Fee</fullName>
+                <default>false</default>
+                <label>Appointment Fee</label>
+            </value>
+            <value>
+                <fullName>Doctor Consultation Fee</fullName>
+                <default>false</default>
+                <label>Doctor Consultation Fee</label>
+            </value>
+            <value>
+                <fullName>Ambulance Fee</fullName>
+                <default>false</default>
+                <label>Ambulance Fee</label>
+            </value>
+            <value>
+                <fullName>Laboratory Fee</fullName>
+                <default>false</default>
+                <label>Laboratory Fee</label>
+            </value>
+            <value>
+                <fullName>Staff Service Fee</fullName>
+                <default>false</default>
+                <label>Staff Service Fee</label>
+            </value>
+            <value>
+                <fullName>Surgery Fee</fullName>
+                <default>false</default>
+                <label>Surgery Fee</label>
+            </value>
+            <value>
+                <fullName>General Checkup Fee</fullName>
+                <default>false</default>
+                <label>General Checkup Fee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

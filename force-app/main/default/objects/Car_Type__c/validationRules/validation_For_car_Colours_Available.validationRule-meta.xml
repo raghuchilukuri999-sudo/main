@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_car_Colours_Available</fullName>
+    <active>true</active>
+    <description>Validation Rule to throw an error message When
+a Car Colors Available is changed from Red, Black, Green, Grey  to White.</description>
+    <errorConditionFormula>AND(
+ISCHANGED( Car_Colors_Available__c ),
+NOT(ISPICKVAL( PRIORVALUE( Car_Colors_Available__c ),&apos;White&apos;)), ISPICKVAL( Car_Colors_Available__c ,&apos;White&apos;)
+)</errorConditionFormula>
+    <errorMessage>You Can&apos;t Change Your Color To white.</errorMessage>
+</ValidationRule>

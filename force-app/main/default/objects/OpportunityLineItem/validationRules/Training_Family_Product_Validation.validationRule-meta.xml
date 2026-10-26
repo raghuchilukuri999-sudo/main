@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Family_Product_Validation</fullName>
+    <active>false</active>
+    <description>validation Rule  To Throw Error When The Discount For The  Training Family Product Is more Than 10%.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Product2.Family , &apos;Training&apos;),
+Discount  &gt; 0.1
+)</errorConditionFormula>
+    <errorDisplayField>Discount</errorDisplayField>
+    <errorMessage>Discount Cannot Be More than 10% For The Training Family Products</errorMessage>
+</ValidationRule>

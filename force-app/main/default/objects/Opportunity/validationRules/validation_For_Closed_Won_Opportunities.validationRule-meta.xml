@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_Closed_Won_Opportunities</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message When Opportunity
+Products are deleted on a Closed Won Opportunity.</description>
+    <errorConditionFormula>Number_Of_Opportunity_Line_Items__c &lt;PRIORVALUE(Number_Of_Opportunity_Line_Items__c )</errorConditionFormula>
+    <errorMessage>Don&apos;t Change The Product After Closed Won Opportunities</errorMessage>
+</ValidationRule>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_member_approched_cust_status__c</fullName>
+    <label>Team member approched cust status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approched</fullName>
+                <default>false</default>
+                <label>Approched</label>
+            </value>
+            <value>
+                <fullName>Need To Approach</fullName>
+                <default>false</default>
+                <label>Need To Approach</label>
+            </value>
+            <value>
+                <fullName>Approch Date Is Nearby</fullName>
+                <default>false</default>
+                <label>Approch Date Is Nearby</label>
+            </value>
+            <value>
+                <fullName>Approch Date is Longer</fullName>
+                <default>false</default>
+                <label>Approch Date is Longer</label>
+            </value>
+            <value>
+                <fullName>Approched but customer is not interested</fullName>
+                <default>false</default>
+                <label>Approched but customer is not interested</label>
+            </value>
+            <value>
+                <fullName>Approched and Customer is interested</fullName>
+                <default>false</default>
+                <label>Approched and Customer is interested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

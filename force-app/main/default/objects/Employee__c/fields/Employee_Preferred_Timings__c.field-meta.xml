@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Preferred_Timings__c</fullName>
+    <label>Employee Preferred Timings</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Weekdays</fullName>
+                <default>false</default>
+                <label>Weekdays</label>
+            </value>
+            <value>
+                <fullName>weekends</fullName>
+                <default>false</default>
+                <label>weekends</label>
+            </value>
+            <value>
+                <fullName>evening</fullName>
+                <default>false</default>
+                <label>evening</label>
+            </value>
+            <value>
+                <fullName>afternoon</fullName>
+                <default>false</default>
+                <label>afternoon</label>
+            </value>
+            <value>
+                <fullName>morning</fullName>
+                <default>false</default>
+                <label>morning</label>
+            </value>
+            <value>
+                <fullName>night</fullName>
+                <default>false</default>
+                <label>night</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

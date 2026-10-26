@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Customer_Location_In_Detailed</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message When a Customer&apos;s Address does not contain text called PINCODE.</description>
+    <errorConditionFormula>NOT(CONTAINS( Customer_Location_In_Detailed_way__c , &apos;PINCODE&apos;))</errorConditionFormula>
+    <errorMessage>The Customer Location In Detailed Field Should Contain PINCODE</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Car_Type_Delivery_Status_To_Related_Bran__c</fullName>
+    <label>Car Type Delivery Status To Related Bran</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Delivey-In-progress</fullName>
+                <default>false</default>
+                <label>Delivey-In-progress</label>
+            </value>
+            <value>
+                <fullName>Ordered</fullName>
+                <default>false</default>
+                <label>Ordered</label>
+            </value>
+            <value>
+                <fullName>Order-Taking-In-Progress</fullName>
+                <default>false</default>
+                <label>Order-Taking-In-Progress</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

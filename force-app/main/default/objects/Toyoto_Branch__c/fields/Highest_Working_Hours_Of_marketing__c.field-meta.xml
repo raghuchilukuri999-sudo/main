@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highest_Working_Hours_Of_marketing__c</fullName>
+    <label>Highest Working Hours Of marketing</label>
+    <summarizedField>Marketing_Team__c.Marketing_Member_Working_Hours__c</summarizedField>
+    <summaryForeignKey>Marketing_Team__c.Marketing_Related_Branch_del__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

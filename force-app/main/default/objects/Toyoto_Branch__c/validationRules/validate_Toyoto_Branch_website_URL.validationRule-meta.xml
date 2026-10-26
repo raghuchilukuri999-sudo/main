@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validate_Toyoto_Branch_website_URL</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message When a Toyoto branch Related URL website is not ending with a Valid Extension</description>
+    <errorConditionFormula>AND( 
+     
+     RIGHT( Toyoto_Branch_Related_Website__c , 4)  &lt;&gt; &apos;.org&apos;,
+     RIGHT( Toyoto_Branch_Related_Website__c , 4)  &lt;&gt; &apos;.com&apos;,
+     RIGHT( Toyoto_Branch_Related_Website__c , 4)  &lt;&gt; &apos;.gov&apos;,
+     RIGHT( Toyoto_Branch_Related_Website__c , 3)  &lt;&gt; &apos;.in&apos;,
+     RIGHT( Toyoto_Branch_Related_Website__c , 4)  &lt;&gt; &apos;.net&apos;
+
+     )</errorConditionFormula>
+    <errorMessage>The Website Of Branch Should Ends With a Valid Extension</errorMessage>
+</ValidationRule>

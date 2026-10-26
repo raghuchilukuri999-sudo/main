@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Car_Model_Should_Be_There_for_Price</fullName>
+    <active>false</active>
+    <description>car Model should be There For Price To Be decided</description>
+    <errorConditionFormula>OR(
+  AND(
+    ISCHANGED(Car_Price__c),
+    ISBLANK(Car_Model_No__c)
+  ),
+  AND(
+    ISNEW(),
+    NOT(ISBLANK(Car_Price__c)),
+    ISBLANK(Car_Model_No__c)
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Car_Model_No__c</errorDisplayField>
+    <errorMessage>The Cars Model No should be given To get The Price</errorMessage>
+</ValidationRule>

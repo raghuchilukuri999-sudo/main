@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_confirmation_Validation</fullName>
+    <active>true</active>
+    <description>The Fee should be Paid fee paid Should be checked</description>
+    <errorConditionFormula>AND(
+    ISCHANGED( Appointment_confirmed_on__c ),
+    NOT(Appointment_fee_paid__c)
+)</errorConditionFormula>
+    <errorDisplayField>Appointment_confirmed_on__c</errorDisplayField>
+    <errorMessage>The Fee should be Paid fee paid Should be checked</errorMessage>
+</ValidationRule>

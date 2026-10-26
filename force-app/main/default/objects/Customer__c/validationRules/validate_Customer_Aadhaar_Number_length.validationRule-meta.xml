@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validate_Customer_Aadhaar_Number_length</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message When a Customer&apos;s Aadhar Number is not 16 digits.</description>
+    <errorConditionFormula>LEN( customer_Aadhaar_Number__c )  &lt;&gt; 16</errorConditionFormula>
+    <errorMessage>The Aadhaar Number Should Be 16 digits.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_Employee_Aproach_Customer</fullName>
+    <active>false</active>
+    <description>Write a Validation Rule to throw an error message When a Employee whose qualification is NOT  B.A, B.Com ,B.TECH and M.TECH selects the On calls OR Hybrid Course.</description>
+    <errorConditionFormula>AND(
+  NOT(ISPICKVAL(Employee_Qualification__c ,&apos;B.A&apos;)) ,
+  NOT(ISPICKVAL(Employee_Qualification__c ,&apos;B.Tech&apos;)) ,
+  NOT(ISPICKVAL(Employee_Qualification__c ,&apos;B.Com&apos;)) ,
+  NOT(ISPICKVAL(Employee_Qualification__c ,&apos;M.Tech&apos;)) ,
+  OR(
+    ISPICKVAL(Employee_Mode_Of_approaching_Customer__c ,&apos;On calls and Internet&apos;), 
+    ISPICKVAL(Employee_Mode_Of_approaching_Customer__c ,&apos;Hybrid&apos;)
+  )
+)</errorConditionFormula>
+    <errorMessage>Employee can&apos;t Choose On calls and Internet OR Hybrid Customer approach If his Qualification Is Not B.Tech, B.Com, M.Tech, B.A</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Employee_Physical_Ability</fullName>
+    <active>true</active>
+    <description>Validation Rule to throw an error message When a
+Physically Handicapped Marketing Employee  selects the Preferred Timings
+as Evening.</description>
+    <errorConditionFormula>AND(
+ Physically_Handicapped_Employee__c  = True, 
+INCLUDES(  Marketing_Team_Preffered_Days_For_Online__c ,&apos;Evening&apos;)
+)</errorConditionFormula>
+    <errorMessage>The Marketing member can&apos;t Choose Evening As Preferred timings</errorMessage>
+</ValidationRule>

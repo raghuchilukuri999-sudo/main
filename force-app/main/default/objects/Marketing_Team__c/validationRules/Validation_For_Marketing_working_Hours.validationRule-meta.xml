@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Marketing_working_Hours</fullName>
+    <active>true</active>
+    <description>Validation Rule to throw an error message When the
+Course Duration is not in Multiples of 5</description>
+    <errorConditionFormula>MOD( Marketing_Member_Working_Hours__c  ,5) &lt;&gt; 0</errorConditionFormula>
+    <errorMessage>The Working Hours Of Marketing Employee Should Be In Multiples Of 5.</errorMessage>
+</ValidationRule>

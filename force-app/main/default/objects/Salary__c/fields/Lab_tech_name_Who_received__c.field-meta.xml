@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_tech_name_Who_received__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Lab tech name Who received</label>
+    <referenceTo>Lab__c</referenceTo>
+    <relationshipLabel>salaries</relationshipLabel>
+    <relationshipName>salaries</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

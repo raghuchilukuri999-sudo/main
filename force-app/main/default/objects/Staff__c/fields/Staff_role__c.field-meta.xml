@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staff_role__c</fullName>
+    <label>Staff role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Receptionist</fullName>
+                <default>false</default>
+                <label>Receptionist</label>
+            </value>
+            <value>
+                <fullName>Ward Boy / Support Staff</fullName>
+                <default>false</default>
+                <label>Ward Boy / Support Staff</label>
+            </value>
+            <value>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+                <label>Housekeeping</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Administrative Staff</fullName>
+                <default>false</default>
+                <label>Administrative Staff</label>
+            </value>
+            <value>
+                <fullName>Manager / Supervisor</fullName>
+                <default>false</default>
+                <label>Manager / Supervisor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

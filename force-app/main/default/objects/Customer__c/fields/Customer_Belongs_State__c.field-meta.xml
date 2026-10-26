@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Belongs_State__c</fullName>
+    <label>Customer Belongs State</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Customer_Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>assam</fullName>
+                <default>false</default>
+                <label>assam</label>
+            </value>
+            <value>
+                <fullName>orissa</fullName>
+                <default>false</default>
+                <label>orissa</label>
+            </value>
+            <value>
+                <fullName>hyderabad</fullName>
+                <default>false</default>
+                <label>hyderabad</label>
+            </value>
+            <value>
+                <fullName>bangalore</fullName>
+                <default>false</default>
+                <label>bangalore</label>
+            </value>
+            <value>
+                <fullName>chennai</fullName>
+                <default>false</default>
+                <label>chennai</label>
+            </value>
+            <value>
+                <fullName>Aichi</fullName>
+                <default>false</default>
+                <label>Aichi</label>
+            </value>
+            <value>
+                <fullName>Akita</fullName>
+                <default>false</default>
+                <label>Akita</label>
+            </value>
+            <value>
+                <fullName>Ehime</fullName>
+                <default>false</default>
+                <label>Ehime</label>
+            </value>
+            <value>
+                <fullName>Fukui</fullName>
+                <default>false</default>
+                <label>Fukui</label>
+            </value>
+            <value>
+                <fullName>Aomori</fullName>
+                <default>false</default>
+                <label>Aomori</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Hawaii</fullName>
+                <default>false</default>
+                <label>Hawaii</label>
+            </value>
+            <value>
+                <fullName>Alaska</fullName>
+                <default>false</default>
+                <label>Alaska</label>
+            </value>
+            <value>
+                <fullName>Maine</fullName>
+                <default>false</default>
+                <label>Maine</label>
+            </value>
+            <value>
+                <fullName>New Mexico</fullName>
+                <default>false</default>
+                <label>New Mexico</label>
+            </value>
+            <value>
+                <fullName>Koshi Pradesh</fullName>
+                <default>false</default>
+                <label>Koshi Pradesh</label>
+            </value>
+            <value>
+                <fullName>Madhesh Pradesh</fullName>
+                <default>false</default>
+                <label>Madhesh Pradesh</label>
+            </value>
+            <value>
+                <fullName>Bagmati Pradesh</fullName>
+                <default>false</default>
+                <label>Bagmati Pradesh</label>
+            </value>
+            <value>
+                <fullName>Gandaki Pradesh</fullName>
+                <default>false</default>
+                <label>Gandaki Pradesh</label>
+            </value>
+            <value>
+                <fullName>Lumbini Pradesh</fullName>
+                <default>false</default>
+                <label>Lumbini Pradesh</label>
+            </value>
+            <value>
+                <fullName>Karnali Pradesh</fullName>
+                <default>false</default>
+                <label>Karnali Pradesh</label>
+            </value>
+            <value>
+                <fullName>Guangdong</fullName>
+                <default>false</default>
+                <label>Guangdong</label>
+            </value>
+            <value>
+                <fullName>Sichuan</fullName>
+                <default>false</default>
+                <label>Sichuan</label>
+            </value>
+            <value>
+                <fullName>Zhejiang</fullName>
+                <default>false</default>
+                <label>Zhejiang</label>
+            </value>
+            <value>
+                <fullName>Hunan</fullName>
+                <default>false</default>
+                <label>Hunan</label>
+            </value>
+            <value>
+                <fullName>Shandong</fullName>
+                <default>false</default>
+                <label>Shandong</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>assam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>orissa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>hyderabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>bangalore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>chennai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>japan</controllingFieldValue>
+            <valueName>Aichi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>japan</controllingFieldValue>
+            <valueName>Akita</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>japan</controllingFieldValue>
+            <valueName>Ehime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>japan</controllingFieldValue>
+            <valueName>Fukui</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>japan</controllingFieldValue>
+            <valueName>Aomori</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>Hawaii</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>Alaska</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>Maine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>New Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Koshi Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Madhesh Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Bagmati Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Gandaki Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Lumbini Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nepal</controllingFieldValue>
+            <valueName>Karnali Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Guangdong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Sichuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Zhejiang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Hunan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Shandong</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

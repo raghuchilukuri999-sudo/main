@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Car_Type_Customer_Choosen__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This Field In Customer Feedback Is About Car Type That Customer Choosen</description>
+    <label>Car Type Customer Choosen</label>
+    <referenceTo>Car_Type__c</referenceTo>
+    <relationshipLabel>Customer Feedbacks</relationshipLabel>
+    <relationshipName>Customer_Feedbacks</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

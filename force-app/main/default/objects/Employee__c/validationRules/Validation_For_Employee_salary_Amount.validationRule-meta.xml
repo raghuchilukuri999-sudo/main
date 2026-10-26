@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Employee_salary_Amount</fullName>
+    <active>false</active>
+    <description>a Validation Rule to throw an error message When the Employee Salary is less than 2000 and greater than 100000.</description>
+    <errorConditionFormula>OR(
+      Employee_Salary__c  &lt; 2000,
+      Employee_Salary__c  &gt; 100000
+   )</errorConditionFormula>
+    <errorMessage>The Employee Salary Should In Between 2000 and 100000</errorMessage>
+</ValidationRule>

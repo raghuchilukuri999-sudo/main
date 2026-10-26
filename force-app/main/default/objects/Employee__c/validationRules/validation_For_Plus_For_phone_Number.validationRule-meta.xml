@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_Plus_For_phone_Number</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message When the
+Contact Number does not start with &apos;+&apos; Sign.</description>
+    <errorConditionFormula>NOT( BEGINS( Employee_Phone__c , &apos;+&apos;) )</errorConditionFormula>
+    <errorMessage>The Phone Number should Begins with &apos;+ &apos; sign</errorMessage>
+</ValidationRule>

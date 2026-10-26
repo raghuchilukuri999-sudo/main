@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original</fullName>
+    <active>true</active>
+    <label>Original</label>
+    <picklistValues>
+        <picklist>Car_Selecting_Process__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Want To See many Models</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Belongs_State__c</picklist>
+        <values>
+            <fullName>Aichi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Akita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aomori</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bagmati Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ehime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fukui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gandaki Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guangdong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hunan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karnali Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Koshi Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lumbini Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madhesh Pradesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shandong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sichuan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zhejiang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>assam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>bangalore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>chennai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>orissa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Country__c</picklist>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nepal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>japan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Submitted_PRoof__c</picklist>
+        <values>
+            <fullName>Adhaar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driving License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pan ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voter ID</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Test_Drive_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inprogress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Took</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Features_Customers_Required__c</picklist>
+        <values>
+            <fullName>A%2Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-A%2Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Top</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Automatic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mode_Of_Payment__c</picklist>
+        <values>
+            <fullName>EMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FULLY PAID</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>car_insurance_Remainder_picklist__c</picklist>
+        <values>
+            <fullName>Term Ended longback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term is Ended Today</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term is Going To end</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term is Newly Taken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term is Retook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term is Updated To Another Term</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

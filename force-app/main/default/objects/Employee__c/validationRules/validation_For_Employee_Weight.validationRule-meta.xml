@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_Employee_Weight</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message when the Employee Weight entered is a decimal 
+  value</description>
+    <errorConditionFormula>Employee_Weight__c  &lt;&gt; FLOOR( Employee_Weight__c )</errorConditionFormula>
+    <errorMessage>The Employee&apos;s Weight Should Not be In Decimal</errorMessage>
+</ValidationRule>

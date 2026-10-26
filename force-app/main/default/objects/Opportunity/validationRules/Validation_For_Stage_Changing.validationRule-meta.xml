@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Stage_Changing</fullName>
+    <active>false</active>
+    <description>validation Rule To thrown An Error Message When Stage In opportunity Object Changes Other Then Prospecting If Product Is not created or existing and also Opportunity Is Not Closed</description>
+    <errorConditionFormula>AND(
+IsClosed = false, 
+CASE( TEXT(StageName),&apos;Qualification&apos;, 1, &apos;Needs Analysis&apos;, 1,&apos;Value Proposition&apos;,1,&apos;Id. Decision Makers&apos;,1,&apos;Perception Analysis&apos;,1,&apos;Proposal/Price Quote&apos;,1,&apos;Negotiation/Review&apos;,1,0) = 1,
+HasOpportunityLineItem = false
+)</errorConditionFormula>
+    <errorMessage>The Opportunity Case can&apos;t Be Closed And Stage Can&apos;t Be changed From Prospecting If Product Is Not Created Or Existing</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_For_Customer_Pan_Id</fullName>
+    <active>false</active>
+    <description>validation Rule To Throw An Error When Customer Pan id Is Not In Capital Letters</description>
+    <errorConditionFormula>Customer_Pan_Id__c  &lt;&gt; UPPER( Customer_Pan_Id__c )</errorConditionFormula>
+    <errorMessage>The Customer&apos;s Pan Id Should Always In capital Letters</errorMessage>
+</ValidationRule>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_OF_Advertisement__c</fullName>
+    <label>Type OF Advertisement</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Mode_Of_advertisement__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pamplets</fullName>
+                <default>false</default>
+                <label>Pamplets</label>
+            </value>
+            <value>
+                <fullName>Flexies</fullName>
+                <default>false</default>
+                <label>Flexies</label>
+            </value>
+            <value>
+                <fullName>T.V Ads</fullName>
+                <default>false</default>
+                <label>T.V Ads</label>
+            </value>
+            <value>
+                <fullName>Phone Calls and Messages</fullName>
+                <default>false</default>
+                <label>Phone Calls and Messages</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <controllingFieldValue>HYbrid</controllingFieldValue>
+            <valueName>Pamplets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <controllingFieldValue>HYbrid</controllingFieldValue>
+            <valueName>Phone Calls and Messages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <controllingFieldValue>HYbrid</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <controllingFieldValue>HYbrid</controllingFieldValue>
+            <valueName>Flexies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offline</controllingFieldValue>
+            <controllingFieldValue>HYbrid</controllingFieldValue>
+            <valueName>T.V Ads</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

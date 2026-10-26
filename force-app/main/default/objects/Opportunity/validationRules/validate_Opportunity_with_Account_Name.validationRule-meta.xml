@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validate_Opportunity_with_Account_Name</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message when the
+Opportunity Name does not contain Account Name.</description>
+    <errorConditionFormula>AND(
+
+NOT( ISBLANK( Name ) ) ,
+ISBLANK( Account.Name) 
+
+)</errorConditionFormula>
+    <errorMessage>The Account Name Is Mandatory IF You Enter Opportunity Name</errorMessage>
+</ValidationRule>

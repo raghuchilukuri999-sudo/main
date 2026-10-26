@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_technician_Role__c</fullName>
+    <label>Lab technician Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pathologist</fullName>
+                <default>false</default>
+                <label>Pathologist</label>
+            </value>
+            <value>
+                <fullName>Radiologist</fullName>
+                <default>false</default>
+                <label>Radiologist</label>
+            </value>
+            <value>
+                <fullName>Microbiologist</fullName>
+                <default>false</default>
+                <label>Microbiologist</label>
+            </value>
+            <value>
+                <fullName>Biochemist</fullName>
+                <default>false</default>
+                <label>Biochemist</label>
+            </value>
+            <value>
+                <fullName>Hematologist</fullName>
+                <default>false</default>
+                <label>Hematologist</label>
+            </value>
+            <value>
+                <fullName>Geneticist</fullName>
+                <default>false</default>
+                <label>Geneticist</label>
+            </value>
+            <value>
+                <fullName>Pharmacologist</fullName>
+                <default>false</default>
+                <label>Pharmacologist</label>
+            </value>
+            <value>
+                <fullName>Lab Technician</fullName>
+                <default>false</default>
+                <label>Lab Technician</label>
+            </value>
+            <value>
+                <fullName>Lab Assistant</fullName>
+                <default>false</default>
+                <label>Lab Assistant</label>
+            </value>
+            <value>
+                <fullName>Clinical Lab Technician</fullName>
+                <default>false</default>
+                <label>Clinical Lab Technician</label>
+            </value>
+            <value>
+                <fullName>Research Assistant</fullName>
+                <default>false</default>
+                <label>Research Assistant</label>
+            </value>
+            <value>
+                <fullName>Lab Analyst</fullName>
+                <default>false</default>
+                <label>Lab Analyst</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

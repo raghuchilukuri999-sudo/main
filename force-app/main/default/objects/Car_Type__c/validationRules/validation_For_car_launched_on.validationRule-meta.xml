@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validation_For_car_launched_on</fullName>
+    <active>true</active>
+    <description>Validation Rule to throw an error message when the car Launched Date . is changed once it is populated</description>
+    <errorConditionFormula>AND(
+NOT( ISBLANK( PRIORVALUE( Car_Launched_On__c ) ) ), 
+ISCHANGED( Car_Launched_On__c )
+)</errorConditionFormula>
+    <errorMessage>The Launched date can&apos;t Be Changed and can;t be blank</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>valiadtion_For_Credit_card_Format</fullName>
+    <active>false</active>
+    <description>Validation Rule to throw an error message when the Aadhaar Number of the Customer does not match this format  1234-5678-9012-0876.</description>
+    <errorConditionFormula>NOT(REGEX(  Customer_Credit_Card__c  ,&apos;[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}&apos;))</errorConditionFormula>
+    <errorMessage>The credit card Number Is Not in The Correct Format</errorMessage>
+</ValidationRule>
